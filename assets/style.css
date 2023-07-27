@@ -1,0 +1,20 @@
+header{
+    display: flex;
+    height: 70px;
+    position: sticky;
+}
+
+.sidebar{
+    background-color: #051e34;
+    height: calc(100vh - 70px);
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bg_side{
+    background-color: #051e34;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: white;
+}
