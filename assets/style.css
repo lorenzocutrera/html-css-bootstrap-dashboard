@@ -37,6 +37,12 @@ header{
     min-height: 100px;
     background-color: #1a73e8;
     width: 100vw;
+    color: white;
+}
+
+.bg_badge{
+    background-color: #165bba;
+    margin: 10px;
 }
 
 .fs_card{
