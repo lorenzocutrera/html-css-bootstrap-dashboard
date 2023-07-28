@@ -2,13 +2,20 @@ header{
     display: flex;
     height: 70px;
     position: sticky;
+    top: 0;
+    z-index: 99999;
 }
 
 .sidebar{
     background-color: #051e34;
-    height: calc(100vh - 70px);
+    width: 150px;
+    height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+    background-image: url(./img/sidebar-bg.png);
+    position: sticky;
+    left: 0;
+    z-index: 9999;
 }
 .bg_side{
     background-color: #051e34;
@@ -17,4 +24,16 @@ header{
 .sidebar a{
     text-decoration: none;
     color: white;
+}
+
+.page{
+    width: 100%;
+    justify-content: flex-end;
+    overflow: scroll;
+}
+
+.banner{
+    min-height: 100px;
+    background-color: #1a73e8;
+    width: 100vw;
 }
