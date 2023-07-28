@@ -2,9 +2,13 @@ header{
     width: 100%;
     display: flex;
     height: 70px;
-    position: sticky;
+    position: fixe;
     top: 0;
     z-index: 99999;
+}
+
+main{
+    margin-top: 
 }
 
 .sidebar{
@@ -14,9 +18,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
     background-image: url(./img/sidebar-bg.png);
-    position: sticky;
-    left: 0;
-    z-index: 9999;
+    
 }
 .bg_side{
     background-color: #051e34;
@@ -42,7 +44,6 @@ header{
 
 .bg_badge{
     background-color: #165bba;
-    margin: 10px;
 }
 
 .fs_card{
